@@ -61,7 +61,7 @@ function setActionStatus(string $status): void
 
 function getActionStatus(): ?string
 {
-    $return = $_SESSION['actionStatus'];
+    $return = isset($_SESSION['actionStatus']) ? $_SESSION['actionStatus'] : null;
     unset($_SESSION['actionStatus']);
     return $return;
 }
