@@ -51,7 +51,7 @@
                             <textarea name="text" required placeholder="Задача" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" name="username" required placeholder="Имя исполнителя">
+                            <input class="form-control" type="text" name="username" required placeholder="Имя">
                         </div>
                         <div class="form-group">
                             <input class="form-control" type="email" name="email" required placeholder="Email">
@@ -86,7 +86,7 @@
                         <table class="table table-borderless">
                             <tbody>
                             <tr>
-                                <th style="width: 1px">Иполнитель</th>
+                                <th style="width: 1px">Имя</th>
                                 <td>{{ $task->username }}</td>
                             </tr>
                             <tr>
